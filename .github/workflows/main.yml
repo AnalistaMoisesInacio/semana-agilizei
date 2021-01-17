@@ -36,7 +36,7 @@ jobs:
     - run: npm install
     
     # executar os testes usando o cucumber
-    - run: npm run cypress:run:cucumber
+    - run: npm run cy:run:cucumber
     
     # gerar o relatorio em html
     - run: npm run report:cucumber
