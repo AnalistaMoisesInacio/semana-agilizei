@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cucumber Feature Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/4.3.2/css/foundation.min.css">
+    <style type="text/css">
+      p {
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #2ba6cb;
+    padding: 22px 0;
+}
+
+header h1,
+header h4 {
+    color: #fff !important;
+}
+
+header h4 {
+    font-family: "OpenSans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.right-col {
+    text-align: right;
+}
+
+.highlight {
+    color: #5EC7E5;
+}
+
+    </style>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="large-6 columns">
+          <h1 class="subheader">bootcamp-cypress</h1>
+          <h4 class="subheader">Feature tests</h4>
+        </div>
+        <div class="large-6 columns right-col">
+          <h1 class="subheader">1.0.0</h1>
+          <h4 id="buildTime" class="subheader">Sat Jan 16 2021 14:52:27 GMT-0300 (GMT-03:00)</h4>
+        </div>
+      </div>
+    </header>
+    <br /><br />
+
+    
+<div class="row">
+  <div class="large-12 columns">
+
+    <h3 class="subheader"><span class="highlight">Feature: </span>Cadastro</h3>
+    <p class="subheader"> Como usuário, desejo realizar um cadastro<br /> Para que possa acessar o sistema</p>
+    <br />
+    
+      <div class="section-container accordion" data-section="accordion">
+        <section>
+          <p class="title accordion-title" data-section-title><a href="#"><span>Scenario: </span>Cadastro de novo usuário
+          <a>
+            
+              <span class="success label right">Passed</span>
+            
+          </a>
+          </p>
+
+          <div class="content" data-section-content>
+            
+
+              <p class="subheader">
+                <span class="text"><span class="keyword highlight">Given </span> que acesso o site</span>
+		
+                <small>
+                
+                  <span class="success label right">Passed</span>
+                
+                </small>
+		
+
+        
+
+		 
+              </p>
+
+              
+
+            
+
+              <p class="subheader">
+                <span class="text"><span class="keyword highlight">When </span> informar meus dados</span>
+		
+                <small>
+                
+                  <span class="success label right">Passed</span>
+                
+                </small>
+		
+
+        
+
+		 
+              </p>
+
+              
+
+            
+
+              <p class="subheader">
+                <span class="text"><span class="keyword highlight">And </span> salvar</span>
+		
+                <small>
+                
+                  <span class="success label right">Passed</span>
+                
+                </small>
+		
+
+        
+
+		 
+              </p>
+
+              
+
+            
+
+              <p class="subheader">
+                <span class="text"><span class="keyword highlight">Then </span> devo ser cadastrado com sucesso</span>
+		
+                <small>
+                
+                  <span class="success label right">Passed</span>
+                
+                </small>
+		
+
+        
+
+		 
+              </p>
+
+              
+
+            
+          </div>
+        </section>
+      </div>
+    
+    <br />
+    <hr />
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-12 columns">
+
+    <h3 class="subheader"><span class="highlight">Feature: </span>Listagem</h3>
+    <p class="subheader"> Como usuário, desejo acessar a listagem<br /> Para que possa visualizar meus dados de cadastros</p>
+    <br />
+    
+      <div class="section-container accordion" data-section="accordion">
+        <section>
+          <p class="title accordion-title" data-section-title><a href="#"><span>Scenario: </span>Listagem com registros
+          <a>
+            
+              <span class="label right">Undefined</span>
+            
+          </a>
+          </p>
+
+          <div class="content" data-section-content>
+            
+
+              <p class="subheader">
+                <span class="text"><span class="keyword highlight">Given </span> que o site possui varios registros</span>
+		
+                <small>
+                
+                  <span class="label right">Undefined</span>
+                
+                </small>
+		
+
+        
+
+		 
+              </p>
+
+              
+
+            
+
+              <p class="subheader">
+                <span class="text"><span class="keyword highlight">When </span> acessar a listagem com registros</span>
+		
+                <small>
+                
+                  <span class="label right">Skipped</span>
+                
+                </small>
+		
+
+        
+
+		 
+              </p>
+
+              
+
+            
+
+              <p class="subheader">
+                <span class="text"><span class="keyword highlight">Then </span> devo visualizar varios  registros</span>
+		
+                <small>
+                
+                  <span class="label right">Skipped</span>
+                
+                </small>
+		
+
+        
+
+		 
+              </p>
+
+              
+
+            
+          </div>
+        </section>
+      </div>
+    
+    <br />
+    <hr />
+  </div>
+</div>
+ 
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <script>
+      window.onload = function() {
+
+    //  Accordion hide/show
+    var accordionTitles = document.getElementsByClassName('accordion-title');
+
+    //  Convert node list to array
+    Array.prototype.slice.call(accordionTitles).forEach(function(title) {
+
+        title.onclick = function() {
+
+            var content = nextElement(title);
+            var style = window.getComputedStyle(content);
+            var display = style.getPropertyValue('display');
+
+            if (display === 'block') {
+                content.style.display = 'none';
+            } else {
+                content.style.display = 'block';
+            }
+
+            return false;
+        }
+    });
+
+    //  Update build time to since
+    var buildTimeElem = document.getElementById("buildTime");
+    buildTimeElem.innerHTML = 'Built ' + moment(buildTimeElem.innerHTML).fromNow();
+};
+
+/* 
+ Credit to John Resig for this function 
+ taken from Pro JavaScript techniques 
+ */
+function nextElement(elem) {
+    do {
+        elem = elem.nextSibling;
+    } while (elem && elem.nodeType !== 1);
+
+    return elem;
+}
+
+      $('a.toggle').on('click', function(e) {
+    e.preventDefault();
+
+    if (!$(this).hasClass('collapse')) {
+        if ($(this).text() === 'Screenshot -') {
+            // $(this).text('Screenshot +');
+            $(this).next('a.screenshot').find('img').hide();
+        } else if($(this).text() === 'Screenshot +') {
+            // $(this).text('Screenshot -');
+            $(this).next('a.screenshot').find('img').show();
+        }
+    }
+
+    if ($(this).text().includes(' -')) {
+        $(this).text($(this).text().replace(' -', ' +'));
+    } else {
+        $(this).text($(this).text().replace(' +', ' -'));
+    }
+});
+
+    </script>
+  </body>
+</html>
